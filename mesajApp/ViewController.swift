@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         print("mesajApp")
     }
 
-
+   
     @IBAction func mesajGonder(_ sender: Any) {
         if nameText.text == "" {
             uyari(mesajBaslik: "Uyarı", mesaj: "Adınızı Giriniz!!!")
