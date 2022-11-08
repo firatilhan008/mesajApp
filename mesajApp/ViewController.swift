@@ -3,7 +3,7 @@
 //  mesajApp
 //
 //  Created by Fırat İlhan on 8.11.2022.
-//
+// fırat
 
 import UIKit
 
@@ -25,7 +25,6 @@ class ViewController: UIViewController {
         print("mesajApp")
     }
 
-   
     @IBAction func mesajGonder(_ sender: Any) {
         if nameText.text == "" {
             uyari(mesajBaslik: "Uyarı", mesaj: "Adınızı Giriniz!!!")
